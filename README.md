@@ -7,10 +7,8 @@
 <p><i>一个汽修生，计算机只是兴趣使然</i></p>
 
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" />
 <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
-<img alt="Compose" src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" />
 <img alt="Ren'Py" src="https://img.shields.io/badge/Ren'Py-FF7F7F?style=flat-square&logo=renpy&logoColor=white" />
 <img alt="Shell" src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
 <img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
@@ -19,12 +17,9 @@
 <br/>
 
 <img alt="Folia" src="https://img.shields.io/badge/Folia%20%2F%20Folium%20模组-6A5ACD?style=flat-square" />
-<img alt="LSPosed" src="https://img.shields.io/badge/LSPosed%20%2F%20Xposed-ED4C67?style=flat-square" />
-<img alt="Magisk" src="https://img.shields.io/badge/Magisk-00AF9C?style=flat-square&logo=magisk&logoColor=white" />
-<img alt="Android" src="https://img.shields.io/badge/Android-34A853?style=flat-square&logo=android&logoColor=white" />
 <img alt="ComfyUI" src="https://img.shields.io/badge/ComfyUI%20SDXL-1F6FEB?style=flat-square&logo=python&logoColor=white" />
 <img alt="AstrBot" src="https://img.shields.io/badge/AstrBot-12B886?style=flat-square&logo=python&logoColor=white" />
-<img alt="Bilibili" src="https://img.shields.io/badge/Bilibili%20DASH-00A1D6?style=flat-square&logo=bilibili&logoColor=white" />
+
 
 <br/><br/>
 
