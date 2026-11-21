@@ -34,7 +34,7 @@
 ### 🧑‍💻 关于我
 
 - 🐍 **Python 脚本兜底**：Selenium 自动签到、AstrBot 插件调本地 ComfyUI 出 SDXL 图。
-- 🌐 **也自己搭站**：Flask + MySQL 的站点跑在宝塔面板上，榜单后台带登录。
+- 🌐 **也自己搭站**：Flask + MySQL 的群站跑在宝塔面板上，榜单和作品推荐两套后台都带登录。
 - 🎮 **二次元浓度超标**：Ren'Py 做 9-nine- 主题模板（素材自己解包），Magisk 开机动画只做了希亚的 —— 因为希亚是对的。
 - 🌱 **现在在补**：几个半成品收尾（签到脚本、ComfyUI 插件），以及把自用工具做到「别人装上就能用」。
 
@@ -54,7 +54,7 @@
 
 | 项目 | 一句话 | 状态 |
 |---|---|---|
-| [**qiu_web**](https://github.com/junxiang255/qiu_web) `小秋的垃圾站` | Flask 单页站点：PC / 手机双版首页、垃圾桶之夜名单页、带登录的榜单管理后台，数据走 MySQL（`ranking` / `user` 两表，密码 `werkzeug` 哈希）。这次重写做了资源归位、60 处引用重写、接口从写死的 `http://…` 改成站内相对路径、密钥外置成环境变量，顺手修掉「手机版跳不动」「页面没引 jQuery 却在用 `$.ajax`」这类老 bug | 在建 · 域名未启用 |
+| [**qiu_web**](https://github.com/junxiang255/qiu_web) `小秋的垃圾站` | **小秋の垃圾桶**（群号 707983601）的群站：群推荐首页、本周乐色王榜单、作品推荐（实时搜索 / 置顶 / 缩略图 / 展开看大图）、带登录的管理后台。作品封面由后台 multipart 上传 —— magic 嗅探 jpg·png·gif·webp、单张 5MB 上限、按 `昵称_作品名.ext` 落盘，再由 cron 导成 JSON 供静态页 fetch；全站统一顶栏（加群 / GitHub / 迷你播放器），uWSGI + nginx 上线，去重靠数据库唯一索引、写接口一律 `@login_required` | 已上线 |
 | [renpy-bilibili-Download-videos](https://github.com/junxiang255/renpy-bilibili-Download-videos) | 拿 Ren'Py 视觉小说引擎做图形界面，下载 B 站 / 快手视频 | 可用 |
 | [MGClub-signin-Script](https://github.com/junxiang255/MGClub-signin-Script) | Selenium + Edge 驱动，自动登录毛怪俱乐部、签到，再用 Cookie 查签到状态 | 自述半成品 |
 | [astrbot_plugin_comfyui](https://github.com/junxiang255/astrbot_plugin_comfyui) | AstrBot 插件，调本地 ComfyUI 的 API 跑 SDXL 文生图 | 半成品，模型变量要按本地改 |
